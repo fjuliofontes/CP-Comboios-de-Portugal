@@ -165,16 +165,16 @@ def getDate(year, month, day):
 	return res
 
 def print_helper():
-	print('Usage: python3 ' + sys.argv[0] + '-sS <startStation> -eS <endStation> \r')
+	print('Usage: python3 ' + sys.argv[0] + ' -sS <startStation> -eS <endStation> \r')
 	print('Options: ')
 	print('-sD <startDate> (search only after <startDate> value inclusive |ex: -sD 2020-05-29|)')
 	print('-eD <endDate>   (search only until <endDate> value inclusive   |ex: -eD 2020-05-30|)')
-	print('-al (search for alpha trains)')
+	print('-al (search for alfa trains)')
 	print('-ic (search for intercities trains)')
 	print('-in (search for international trains)')
 	print('-re (search for regionals trains)')
-	print('-ub (search for regionals trains)')
-	print('Note: When only <startStation> <endStation> specifyed, <startDate> will be set as current day, and <endDate> the maximum allowed by CP (60 days).')
+	print('-ub (search for urbans trains)')
+	print('Note: When only <startStation> <endStation> specifyed, <startDate> will be set as the current day, and <endDate> as the maximum allowed by CP (60 days).')
 	print('      By default the program will search for all types of trains.')
 	exit()
 
