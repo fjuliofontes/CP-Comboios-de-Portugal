@@ -17,6 +17,6 @@ Options:
 	
 	-ub (search for urbans trains)
 
-Note: When only \<startStation\> \<endStation\> specifyed, \<startDate\> will be set as the current day, and \<endDate\> as the maximum allowed by CP (60 days).
+Note: When only \<startStation\> \<endStation\> specified, \<startDate\> will be set as the current day, and \<endDate\> as the maximum allowed by CP (60 days).
       By default the program will search for all types of trains.
 
