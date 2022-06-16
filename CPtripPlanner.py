@@ -289,8 +289,12 @@ def main():
 		
 		[train_info, train_price] = getPrices1(url_bilhetes1 , searchTemplate)
 
-		# get cheapest travel options
-		l_p = min(train_price)
+		# get cheapest travel options if avaible
+		try:
+			l_p = min(train_price)
+		except:
+			continue
+		
 
 		# get all occurrences
 		for i in range(0,len(train_price)-1):
